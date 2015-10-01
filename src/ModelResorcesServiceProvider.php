@@ -1,6 +1,6 @@
 <?php
 
-namespace AVIL\ModelResorces;
+namespace AVIL13\ModelResorces;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\ResourceRegistrar;
@@ -30,7 +30,7 @@ class ModelResorcesServiceProvider extends ServiceProvider
 
         foreach ($paths as $key => $value)
         {
-            \Route::resource($key, 'AVIL\ModelResorces\ModelResorcesController');
+            \Route::resource($key, 'AVIL13\ModelResorces\ModelResorcesController');
         }
 
         return $this;

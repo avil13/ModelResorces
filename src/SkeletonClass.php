@@ -1,6 +1,6 @@
 <?php
 
-namespace AVIL\ModelResorces;
+namespace AVIL13\ModelResorces;
 
 class SkeletonClass
 {

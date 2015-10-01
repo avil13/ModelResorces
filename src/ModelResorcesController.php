@@ -1,6 +1,6 @@
 <?php
 
-namespace AVIL\ModelResorces;
+namespace AVIL13\ModelResorces;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
