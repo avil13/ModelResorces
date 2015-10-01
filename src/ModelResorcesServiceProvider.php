@@ -24,8 +24,6 @@ class ModelResorcesServiceProvider extends ServiceProvider
 
         $paths = config('model_res');
 
-        //
-        // \App::make('AVIL\ModelResorces\ModelResorcesController')->setPaths($paths);
         ModelResorcesController::setPaths($paths);
 
         foreach ($paths as $key => $value)
